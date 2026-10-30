@@ -11,9 +11,24 @@ Sitio web estático (HTML + CSS + JavaScript, sin dependencias ni instalación) 
 
 ## 1. Cómo ver el sitio
 
-Abre `index.html` con doble clic. Todo funciona sin servidor.
+**En línea:** https://gilbertagt42-dot.github.io/Seguros-Y-Taxes/
 
-Para publicarlo, sube la carpeta completa a Netlify, Vercel, GitHub Pages o cualquier hosting estático.
+**En tu computadora:** abre `index.html` con doble clic. Todo funciona sin servidor.
+
+El sitio se publica con **GitHub Pages** desde la rama `main` (raíz del repositorio). Cada `git push` a `main` republica el sitio en 1–2 minutos.
+
+---
+
+## 1.1 Publicar cambios
+
+```powershell
+cd "C:\Users\gilbe\OneDrive\Documents\Default Project"
+git add -A
+git commit -m "Describe el cambio"
+git push
+```
+
+> El repositorio es público, así que **no subas documentos de clientes, declaraciones ni datos personales**. Solo el código del sitio.
 
 ---
 
@@ -150,7 +165,7 @@ En `assets/css/styles.css`, bloque `:root`:
 
 ## 7. Antes de publicar: pendientes importantes
 
-1. **Dominio:** el sitio usa `https://gilbertoagomez.com` como marcador en `canonical`, `og:image` y `sitemap.xml`. Reemplázalo por tu dominio real (buscar y reemplazar en los 8 archivos HTML + `sitemap.xml`).
+1. **Dominio:** el sitio está publicado en `https://gilbertagt42-dot.github.io/Seguros-Y-Taxes/` y esa URL aparece en `canonical`, `og:image`, `sitemap.xml`, `robots.txt` y `site-config.js`. Si conectas un dominio propio, reemplázala en esos archivos (8 HTML + `sitemap.xml` + `robots.txt` + `site-config.js`) y añade un archivo `CNAME` con el dominio.
 2. **Testimonios:** los tres de `index.html` son ejemplos de maqueta. Sustitúyelos por testimonios reales con autorización del cliente, o elimina esa sección. No publiques testimonios inventados.
 3. **Números de licencia:** agrega tu número de licencia de seguros de Florida y tu PTIN en `site-config.js` y en el pie de página.
 4. **Aviso de privacidad:** si vas a recolectar datos por formulario, conviene una página de política de privacidad (requisito en varios estados y en las reglas de Google Ads).

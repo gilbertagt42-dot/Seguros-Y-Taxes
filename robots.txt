@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gilbertoagomez.com/sitemap.xml
+Sitemap: https://gilbertagt42-dot.github.io/Seguros-Y-Taxes/sitemap.xml

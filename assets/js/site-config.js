@@ -50,7 +50,7 @@ window.SITE = {
   site: {
     city: "Tampa, Florida",
     serviceArea: "Atención virtual en todo EE. UU. · Citas presenciales en Tampa, FL",
-    url: "https://gilbertoagomez.com",
+    url: "https://gilbertagt42-dot.github.io/Seguros-Y-Taxes",
     season: "Temporada de impuestos: enero – abril"
   },
 
