@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 80" role="img" aria-label="Escudo de protección">
+  <defs>
+    <linearGradient id="azul" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#59A9FF"/>
+      <stop offset=".45" stop-color="#0B5FD0"/>
+      <stop offset="1" stop-color="#063A84"/>
+    </linearGradient>
+    <linearGradient id="plata" x1=".1" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".48" stop-color="#E6EEF7"/>
+      <stop offset="1" stop-color="#B9CADB"/>
+    </linearGradient>
+    <linearGradient id="oro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7DDA0"/>
+      <stop offset="1" stop-color="#C9962E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Escudo -->
+  <path d="M36 2.5 68 13.6v29.6c0 17.6-13.6 30.2-32 34.8-18.4-4.6-32-17.2-32-34.8V13.6Z"
+        fill="url(#plata)" stroke="url(#azul)" stroke-width="3.6" stroke-linejoin="round"/>
+  <path d="M36 10.2 61 18.8v24c0 13.9-10.6 24.2-25 28.2-14.4-4-25-14.3-25-28.2v-24Z"
+        fill="#fff" opacity=".72"/>
+
+  <!-- Persona protegida -->
+  <g fill="none" stroke="url(#azul)" stroke-width="3.4" stroke-linecap="round">
+    <path d="M26.6 42.4 20.8 35"/>
+    <path d="M40.4 42.4 46.2 35"/>
+  </g>
+  <circle cx="33.5" cy="31.4" r="5.4" fill="url(#azul)"/>
+  <path d="M25.2 51.4c0-5.3 3.7-8.6 8.3-8.6s8.3 3.3 8.3 8.6v3.2H25.2Z" fill="url(#azul)"/>
+
+  <!-- Hoja de crecimiento -->
+  <path d="M46.6 45.6c7.6-2.6 13.4 2.4 12.2 11.6-7.4 2.4-13.4-2.6-12.2-11.6Z"
+        fill="url(#oro)" opacity=".95"/>
+  <path d="M47.4 56.4c2.8-4 6.2-6.4 10.2-8.2" stroke="#8A6212" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".55"/>
+
+  <!-- Base dorada -->
+  <path d="M20 64.4h26" stroke="url(#oro)" stroke-width="3.6" stroke-linecap="round" opacity=".9"/>
+</svg>
